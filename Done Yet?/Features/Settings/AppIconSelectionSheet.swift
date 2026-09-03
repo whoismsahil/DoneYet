@@ -26,10 +26,7 @@ struct AppIconSelectionSheet: View {
                                 }
                             } label: {
                                 VStack(spacing: 12) {
-                                    AppIconSwatch(
-                                        backgroundHex: option.backgroundHex,
-                                        textHex: option.textHex
-                                    )
+                                    AppIconPreview(option: option)
                                     .overlay(alignment: .topTrailing) {
                                         if isSelected {
                                             Image(systemName: "checkmark.circle.fill")
@@ -80,25 +77,23 @@ struct AppIconSelectionSheet: View {
     }
 }
 
-private struct AppIconSwatch: View {
-    let backgroundHex: UInt32
-    let textHex: UInt32
+private struct AppIconPreview: View {
+    let option: AppIconOption
 
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(Color(hex: backgroundHex))
-                .frame(width: 72, height: 72)
-                .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+        Image(imageName(for: option))
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 72, height: 72)
+            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+    }
 
-            VStack(spacing: -2) {
-                Text("DONE")
-                    .font(.system(size: 13, weight: .heavy, design: .default))
-                Text("YET?")
-                    .font(.system(size: 13, weight: .heavy, design: .default))
-            }
-            .foregroundStyle(Color(hex: textHex))
-            .rotationEffect(.degrees(-8))
+    private func imageName(for option: AppIconOption) -> String {
+        switch option {
+        case .defaultSage: return "AppIconSage"
+        case .black: return "AppIconBlack"
+        case .original: return "AppIconOriginal"
         }
     }
 }
