@@ -1,0 +1,161 @@
+{
+  "" : {
+    "const-values" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary.swiftconstvalues",
+    "dependencies" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary.d",
+    "diagnostics" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary-emit-module.dia",
+    "pch" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetExtension-primary.swiftdeps"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/App/AppSchema.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppSchema.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppSchema.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppSchema.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/AppColors.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppColors.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppColors.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppColors.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/AppComponents.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppComponents.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppComponents.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppComponents.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/AppFont.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppFont.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppFont.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppFont.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/AppSpacing.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppSpacing.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppSpacing.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppSpacing.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/AppTypography.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppTypography.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppTypography.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppTypography.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/FluentCheckmark.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/FluentCheckmark.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/FluentCheckmark.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/FluentCheckmark.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/DesignSystem/WidgetFace.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetFace.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetFace.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetFace.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Models/CompletionRecord.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/CompletionRecord.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/CompletionRecord.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/CompletionRecord.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Models/Reminder.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/Reminder.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/Reminder.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/Reminder.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Models/RepeatType.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/RepeatType.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/RepeatType.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/RepeatType.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Services/RecurrenceService.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/RecurrenceService.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/RecurrenceService.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/RecurrenceService.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Services/ReminderService.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderService.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderService.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderService.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Services/SharedWidgetStore.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/SharedWidgetStore.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/SharedWidgetStore.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/SharedWidgetStore.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/AppGroupConstants.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppGroupConstants.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppGroupConstants.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/AppGroupConstants.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/ReminderChangeNotifier.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderChangeNotifier.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderChangeNotifier.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderChangeNotifier.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/ReminderNotificationScheduling.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderNotificationScheduling.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderNotificationScheduling.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/ReminderNotificationScheduling.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/WidgetCompletion.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetCompletion.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetCompletion.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetCompletion.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/WidgetModels.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetModels.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetModels.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetModels.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/WidgetPet.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetPet.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetPet.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetPet.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/WidgetReminderLoader.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetReminderLoader.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetReminderLoader.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetReminderLoader.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/WidgetReminderMapping.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetReminderMapping.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetReminderMapping.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetReminderMapping.o"
+  },
+  "/Users/copods/Documents/Done Yet?/Done Yet?/Shared/WidgetTheme.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetTheme.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetTheme.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/WidgetTheme.o"
+  },
+  "/Users/copods/Documents/Done Yet?/DoneYetWidget/CompleteReminderIntent.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/CompleteReminderIntent.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/CompleteReminderIntent.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/CompleteReminderIntent.o"
+  },
+  "/Users/copods/Documents/Done Yet?/DoneYetWidget/DoneYetWidget.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidget.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidget.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidget.o"
+  },
+  "/Users/copods/Documents/Done Yet?/DoneYetWidget/DoneYetWidgetBundle.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetBundle.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetBundle.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetBundle.o"
+  },
+  "/Users/copods/Documents/Done Yet?/DoneYetWidget/DoneYetWidgetProvider.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetProvider.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetProvider.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetProvider.o"
+  },
+  "/Users/copods/Documents/Done Yet?/DoneYetWidget/DoneYetWidgetViews.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetViews.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetViews.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/DoneYetWidgetViews.o"
+  },
+  "/Users/copods/Documents/Done Yet?/DoneYetWidget/SelectReminderIntent.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/SelectReminderIntent.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/SelectReminderIntent.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/SelectReminderIntent.o"
+  },
+  "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/copods/Documents/Done Yet?/build/Done Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

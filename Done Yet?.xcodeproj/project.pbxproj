@@ -6,20 +6,140 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EC795BED302F257F00358028 /* DoneYetWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EC795BE1302F257F00358028 /* DoneYetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC795BDA302F257F00358028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC795BBD302F257E00358028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC795BC4302F257E00358028;
+			remoteInfo = "Done Yet?";
+		};
+		EC795BEA302F257F00358028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC795BBD302F257E00358028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC795BE3302F257F00358028;
+			remoteInfo = DoneYetWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC795BEC302F257F00358028 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EC795BED302F257F00358028 /* DoneYetWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EC795BC5302F257E00358028 /* Done Yet?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Done Yet?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC795BD5302F257F00358028 /* Done Yet?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Done Yet?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC795BE1302F257F00358028 /* DoneYetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoneYetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EC795BEE302F257F00358028 /* Exceptions for "DoneYetWidget" folder in "DoneYetWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EC795BE3302F257F00358028 /* DoneYetWidgetExtension */;
+		};
+		EC795BEF302F257F00358028 /* Exceptions for "Done Yet?" folder in "DoneYetWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/AppSchema.swift,
+				DesignSystem/AppColors.swift,
+				DesignSystem/AppComponents.swift,
+				DesignSystem/AppFont.swift,
+				DesignSystem/AppSpacing.swift,
+				DesignSystem/AppTypography.swift,
+				DesignSystem/FluentCheckmark.swift,
+				DesignSystem/Pets.xcassets,
+				DesignSystem/WidgetFace.swift,
+				"Fonts/FiraMono-Bold.ttf",
+				"Fonts/FiraMono-Medium.ttf",
+				"Fonts/FiraMono-Regular.ttf",
+				Fonts/InstrumentSans.ttf,
+				Models/CompletionRecord.swift,
+				Models/Reminder.swift,
+				Models/RepeatType.swift,
+				Services/RecurrenceService.swift,
+				Services/ReminderService.swift,
+				Services/SharedWidgetStore.swift,
+				Shared/AppGroupConstants.swift,
+				Shared/ReminderChangeNotifier.swift,
+				Shared/ReminderEmojiStyle.swift,
+				Shared/ReminderNotificationScheduling.swift,
+				Shared/WidgetCompletion.swift,
+				Shared/WidgetModels.swift,
+				Shared/WidgetPet.swift,
+				Shared/WidgetReminderLoader.swift,
+				Shared/WidgetReminderMapping.swift,
+				Shared/WidgetTheme.swift,
+			);
+			target = EC795BE3302F257F00358028 /* DoneYetWidgetExtension */;
+		};
+		EC795BF0302F257F00358028 /* Exceptions for "Done Yet?" folder in "Done Yet?" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EC795BC4302F257E00358028 /* Done Yet? */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EC795BC7302F257E00358028 /* Done Yet? */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EC795BF0302F257F00358028 /* Exceptions for "Done Yet?" folder in "Done Yet?" target */,
+				EC795BEF302F257F00358028 /* Exceptions for "Done Yet?" folder in "DoneYetWidgetExtension" target */,
+			);
 			path = "Done Yet?";
+			sourceTree = "<group>";
+		};
+		EC795BD6302F257F00358028 /* Done Yet?Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Done Yet?Tests";
+			sourceTree = "<group>";
+		};
+		EC795BE2302F257F00358028 /* DoneYetWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EC795BEE302F257F00358028 /* Exceptions for "DoneYetWidget" folder in "DoneYetWidgetExtension" target */,
+			);
+			path = DoneYetWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC795BC2302F257E00358028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC795BD7302F257F00358028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC795BE5302F257F00358028 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				EC795BC7302F257E00358028 /* Done Yet? */,
+				EC795BE2302F257F00358028 /* DoneYetWidget */,
+				EC795BD6302F257F00358028 /* Done Yet?Tests */,
 				EC795BC6302F257E00358028 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				EC795BC5302F257E00358028 /* Done Yet?.app */,
+				EC795BE1302F257F00358028 /* DoneYetWidgetExtension.appex */,
+				EC795BD5302F257F00358028 /* Done Yet?Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +179,12 @@
 				EC795BC1302F257E00358028 /* Sources */,
 				EC795BC2302F257E00358028 /* Frameworks */,
 				EC795BC3302F257E00358028 /* Resources */,
+				EC795BEC302F257F00358028 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EC795BEB302F257F00358028 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				EC795BC7302F257E00358028 /* Done Yet? */,
@@ -69,6 +195,51 @@
 			productName = "Done Yet?";
 			productReference = EC795BC5302F257E00358028 /* Done Yet?.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EC795BD8302F257F00358028 /* Done Yet?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC795BDE302F257F00358028 /* Build configuration list for PBXNativeTarget "Done Yet?Tests" */;
+			buildPhases = (
+				EC795BD9302F257F00358028 /* Sources */,
+				EC795BD7302F257F00358028 /* Frameworks */,
+				EC795BDC302F257F00358028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC795BDD302F257F00358028 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC795BD6302F257F00358028 /* Done Yet?Tests */,
+			);
+			name = "Done Yet?Tests";
+			packageProductDependencies = (
+			);
+			productName = "Done Yet?Tests";
+			productReference = EC795BD5302F257F00358028 /* Done Yet?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC795BE3302F257F00358028 /* DoneYetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC795BE7302F257F00358028 /* Build configuration list for PBXNativeTarget "DoneYetWidgetExtension" */;
+			buildPhases = (
+				EC795BE4302F257F00358028 /* Sources */,
+				EC795BE5302F257F00358028 /* Frameworks */,
+				EC795BE6302F257F00358028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EC795BE2302F257F00358028 /* DoneYetWidget */,
+			);
+			name = DoneYetWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DoneYetWidgetExtension;
+			productReference = EC795BE1302F257F00358028 /* DoneYetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,12 +271,28 @@
 			projectRoot = "";
 			targets = (
 				EC795BC4302F257E00358028 /* Done Yet? */,
+				EC795BD8302F257F00358028 /* Done Yet?Tests */,
+				EC795BE3302F257F00358028 /* DoneYetWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EC795BC3302F257E00358028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC795BDC302F257F00358028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC795BE6302F257F00358028 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +309,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC795BD9302F257F00358028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC795BE4302F257F00358028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC795BDD302F257F00358028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC795BC4302F257E00358028 /* Done Yet? */;
+			targetProxy = EC795BDA302F257F00358028 /* PBXContainerItemProxy */;
+		};
+		EC795BEB302F257F00358028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC795BE3302F257F00358028 /* DoneYetWidgetExtension */;
+			targetProxy = EC795BEA302F257F00358028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EC795BCE302F257F00358028 /* Debug */ = {
@@ -249,10 +463,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Done Yet?/DoneYet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUCXB2Z5AH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Done Yet?/Info.plist";
+				INFOPLIST_KEY_UIAppFonts = "Fonts/InstrumentSans.ttf Fonts/FiraMono-Regular.ttf Fonts/FiraMono-Medium.ttf Fonts/FiraMono-Bold.ttf";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,10 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Done Yet?/DoneYet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUCXB2Z5AH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Done Yet?/Info.plist";
+				INFOPLIST_KEY_UIAppFonts = "Fonts/InstrumentSans.ttf Fonts/FiraMono-Regular.ttf Fonts/FiraMono-Medium.ttf Fonts/FiraMono-Bold.ttf";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +519,108 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DoneYet.Done-Yet-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC795BDF302F257F00358028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DoneYet.Done-Yet-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Done Yet?.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Done Yet?";
+			};
+			name = Debug;
+		};
+		EC795BE0302F257F00358028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DoneYet.Done-Yet-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Done Yet?.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Done Yet?";
+			};
+			name = Release;
+		};
+		EC795BE8302F257F00358028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DoneYetWidget/DoneYetWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUCXB2Z5AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoneYetWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Done Yet?";
+				INFOPLIST_KEY_UIAppFonts = "Fonts/InstrumentSans.ttf Fonts/FiraMono-Regular.ttf Fonts/FiraMono-Medium.ttf Fonts/FiraMono-Bold.ttf";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DoneYet.Done-Yet-.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC795BE9302F257F00358028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DoneYetWidget/DoneYetWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUCXB2Z5AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoneYetWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Done Yet?";
+				INFOPLIST_KEY_UIAppFonts = "Fonts/InstrumentSans.ttf Fonts/FiraMono-Regular.ttf Fonts/FiraMono-Medium.ttf Fonts/FiraMono-Bold.ttf";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DoneYet.Done-Yet-.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -323,6 +647,24 @@
 			buildConfigurations = (
 				EC795BD1302F257F00358028 /* Debug */,
 				EC795BD2302F257F00358028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC795BDE302F257F00358028 /* Build configuration list for PBXNativeTarget "Done Yet?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC795BDF302F257F00358028 /* Debug */,
+				EC795BE0302F257F00358028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC795BE7302F257F00358028 /* Build configuration list for PBXNativeTarget "DoneYetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC795BE8302F257F00358028 /* Debug */,
+				EC795BE9302F257F00358028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

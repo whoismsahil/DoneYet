@@ -1,0 +1,30 @@
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/App/AppSchema.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/AppColors.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/AppComponents.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/AppFont.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/AppSpacing.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/AppTypography.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/FluentCheckmark.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/DesignSystem/WidgetFace.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Models/CompletionRecord.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Models/Reminder.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Models/RepeatType.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Services/RecurrenceService.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Services/ReminderService.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Services/SharedWidgetStore.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/AppGroupConstants.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/ReminderChangeNotifier.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/ReminderNotificationScheduling.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/WidgetCompletion.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/WidgetModels.swift
+/Users/copods/Documents/Done\ Yet?/DoneYetWidget/CompleteReminderIntent.swift
+/Users/copods/Documents/Done\ Yet?/DoneYetWidget/DoneYetWidget.swift
+/Users/copods/Documents/Done\ Yet?/DoneYetWidget/DoneYetWidgetBundle.swift
+/Users/copods/Documents/Done\ Yet?/DoneYetWidget/DoneYetWidgetProvider.swift
+/Users/copods/Documents/Done\ Yet?/DoneYetWidget/DoneYetWidgetViews.swift
+/Users/copods/Documents/Done\ Yet?/DoneYetWidget/SelectReminderIntent.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/WidgetPet.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/WidgetReminderLoader.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/WidgetReminderMapping.swift
+/Users/copods/Documents/Done\ Yet?/Done\ Yet?/Shared/WidgetTheme.swift
+/Users/copods/Documents/Done\ Yet?/build/Done\ Yet?.build/Release-iphoneos/DoneYetWidgetExtension.build/DerivedSources/GeneratedAssetSymbols.swift
